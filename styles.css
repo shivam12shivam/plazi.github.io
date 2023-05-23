@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bree+Serif&family=Fasthand&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    font-family: 'Oswald', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 6px;
+    font-size: .9rem;
+    font-weight: lighter;
+}
+.brand img{
+    width: 37px;
+    padding: 7px 12px 5px 4px; /* (top right down left) */
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: 20px auto;
+    margin-top: 29px;
+    border-radius: 12px;
+    padding: 32px;
+    width: 70%;
+    background-image:url(https://i.pinimg.com/originals/75/fc/51/75fc51dd9fddd32e89a44062468ab79b.gif);
+}
+#myprogressbar{
+    align-items: center;
+    width: 150vh;
+}
+
+.songitem{
+    height: 40px;
+    width: 343px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;     /* equally space in linr all words */
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img{
+    width: 41px;
+    margin: 0 10px;
+}
+
+.songitem i{
+    margin: 0 9px;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 24px;
+}
+
+
+.bottom{
+    position: sticky;
+    height: 137px;
+    background-color:rgb(0, 0, 0);
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#gif{
+    width: 9vh;
+    position: absolute;
+    bottom: 18px;
+    opacity: 0;
+    right: 168vh;
+    transition: opcity 1s ease-in;
+    
+}
+
+.abl{
+    cursor: pointer;
+    color: white;
+}

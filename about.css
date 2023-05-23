@@ -1,0 +1,17 @@
+.about{
+    position: relative;;
+    left: 78vh;
+    top: 20vh;
+    background-color: rgb(101, 164, 164);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: rgb(100, 251, 83);
+    line-height: 5.2rem;
+    height: 50vh;
+    width: 50vh;
+    
+}
+body{
+    background-image: URL(https://daily.jstor.org/wp-content/uploads/2023/01/good_times_with_bad_music_1050x700.jpg);
+}
